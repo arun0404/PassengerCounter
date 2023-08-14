@@ -51,4 +51,4 @@ increment()
 increment()
 increment()
 
-
+// 6. DOM - Documnet Object Model (aka how to javascript to modify a website)
