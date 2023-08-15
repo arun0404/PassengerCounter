@@ -24,12 +24,12 @@ let count = 0
 function increment() {
     //console.log("The button was clicked")
     count += 1  //count = count + 1
-    countEL.innerText = count
+    countEL.textContent = count
     // console.log(count)
 }
 
 function save(){
     let entries = count + " - "
-    saveEl.innerText += entries
+    saveEl.textContent += entries
     console.log(count)
 }
