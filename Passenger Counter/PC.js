@@ -16,17 +16,20 @@
 // change the count-el in the HTML to reflect the new count
 
 let countEL = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
 console.log(countEL)
 
 let count = 0
 
 function increment() {
     //console.log("The button was clicked")
-    count = count + 1
+    count += 1  //count = count + 1
     countEL.innerText = count
     // console.log(count)
 }
 
 function save(){
+    let entries = count + " - "
+    saveEl.innerText += entries
     console.log(count)
 }
