@@ -24,7 +24,7 @@ let count = 0
 function increment() {
     //console.log("The button was clicked")
     count += 1  //count = count + 1
-    countEL.textContent = count
+    countEL.textContent = count  //textContent returns every content in node. Meanwhile innerText only shows "human-readable" elements 
     // console.log(count)
 }
 
