@@ -15,11 +15,10 @@
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
+let count = 0
 let countEL = document.getElementById("count-el")
 let saveEl = document.getElementById("save-el")
 console.log(countEL)
-
-let count = 0
 
 function increment() {
     //console.log("The button was clicked")
