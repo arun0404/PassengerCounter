@@ -68,6 +68,8 @@ let messages = [
 // console.log(messages[2])
 // console.log(messages[3])
 
+// For loop
 for (let i = 0; i < messages.length; i += 1) {
     console.log(messages[i])
 }
+
