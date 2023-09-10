@@ -78,3 +78,6 @@ for (let i = 0; i < messages.length; i += 1) {
 // 8. Math.random()
 let randomNumber = Math.random()
 console.log(randomNumber)
+
+let floorNumber = Math.floor(Math.random()*6)
+console.log(floorNumber)
