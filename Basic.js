@@ -81,3 +81,5 @@ console.log(randomNumber)
 
 let floorNumber = Math.floor(Math.random()*6)
 console.log(floorNumber)
+
+// 9. 
