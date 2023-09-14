@@ -85,7 +85,7 @@ console.log(randomNumber)
 let floorNumber = Math.floor(Math.random()*6)
 console.log(floorNumber)
 
-// 9. LogicalAnd Operator
+// 9. Logical And Operator
 
 let hasCompletedCourse = true
 let givesCertificate = true
