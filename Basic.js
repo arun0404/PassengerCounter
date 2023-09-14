@@ -85,4 +85,15 @@ console.log(randomNumber)
 let floorNumber = Math.floor(Math.random()*6)
 console.log(floorNumber)
 
-// 9. 
+// 9. LogicalAnd Operator
+
+let hasCompletedCourse = true
+let givesCertificate = true
+
+if (hasCompletedCourse === true && givesCertificate === true) {
+    generateCertificate()
+}
+
+function generateCertificate() {
+    console.log("Generating certificate....")
+}
